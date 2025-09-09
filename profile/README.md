@@ -1,0 +1,181 @@
+<h1 align="center">📱 Android Development for POCO X7 Pro (rodin)</h1>
+
+<p align="center">
+  <strong>Device configuration for POCO X7 Pro 5G / Redmi Turbo 4</strong><br>
+  <i>An upper mid-range smartphone from Xiaomi, released on January 09, 2025.</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Android-16-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android 16" />
+  <img src="https://img.shields.io/badge/SoC-Dimensity_8400_Ultra-blue?style=for-the-badge" alt="Dimensity 8400 Ultra" />
+  <img src="https://img.shields.io/badge/Status-Under%20Development-orange?style=for-the-badge" alt="Status Under Development" />
+  <img src="https://img.shields.io/badge/Access-Rodin%20Devs%20Only-red?style=for-the-badge" alt="Rodin Devs Only" />
+</p>
+
+---
+
+> [!WARNING]
+> ## 🚧 Active Development — Read Before Proceeding
+>
+> **This project is currently under active development and is NOT production-ready.**
+>
+> - 🔁 **Force-push & Rebase Policy:** History rewrites (rebases and force-pushes) happen **frequently and without prior notice**. Do **not** base long-lived work on top of these trees — your local branches may become incompatible at any time.
+> - 🔒 **Restricted Access:** This organization is intended for **personal use** and is open **only to a select group of rodin developers**. If you are not part of this group, you are still welcome to **contribute via Pull Requests** — however, do not expect active support, reviews, or timely merges.
+> - ⚠️ **No Stability Guarantees:** Builds may be broken, incomplete, or non-functional at any given point in time. There is no release schedule or support commitment.
+> - 🚫 **Do NOT Flash Builds from Unknown Sources:** Do **not** flash builds made by unknown developers using these trees. **Official daily driver builds and unofficial releases by the maintainer are posted exclusively on the [official Telegram channel](https://t.me/digimendxrodin)** — only trust builds from there.
+
+---
+
+> [!NOTE]
+> This organization hosts device trees, kernel sources, and hardware layers for Android development on `rodin`, focusing on clean bring-up, stability, and performance.
+> Its purpose is intended for **personal use** and **unofficial releases**.
+
+<p align="center">
+  <img src="https://github.com/Digimend-X-Rodin/.github/blob/main/profile/1a097d170ec6940798552eee961fc641.webp" 
+       alt="POCO X7 Pro" 
+       style="padding: 0 50px;">
+</p>
+
+---
+
+## 📊 Device Specifications
+
+| Component | Specification |
+| :--- | :--- |
+| 📱 **SoC** | Mediatek Dimensity 8400 Ultra (MT6899) |
+| 🧠 **CPU** | Octa-core (1x3.25 GHz Cortex-A725 & 3x3.0 GHz Cortex-A725 & 4x2.1 GHz Cortex-A725) |
+| 🎮 **GPU** | Mali-G720 MC7 |
+| 💾 **Memory** | 8/12GB, LPDDR5X |
+| 💽 **Storage** | 256/512GB, UFS 4.0 |
+| 🤖 **Shipped OS**| Android 15, HyperOS 2 |
+| 🔋 **Battery** | Non-removable Li-Ion 6550/6000 mAh |
+| 📏 **Dimensions**| 160.8 x 75.2 x 8.3 mm (6.33 x 2.96 x 0.33 in) |
+| ⚖️ **Weight** | 195 g or 198 g (6.88 oz) |
+| 📺 **Display** | AMOLED, 68B colors, 120Hz, 1920Hz PWM, Dolby Vision, HDR10+, 1400 nits (HBM), 3200 nits (peak) |
+| 📐 **Size & Res**| 6.67 inches (~88.8% screen-to-body), 1220 x 2712 pixels, 20:9 ratio (~446 ppi) |
+| 📸 **Rear Cam** | 50 MP, f/1.5, 26mm (wide), OIS **+** 8 MP, f/2.2, 15mm (ultrawide) |
+| 🤳 **Front Cam** | 20 MP, f/2.2, 25mm (wide) |
+
+---
+
+## 👤 Maintainer & Credits
+
+**Maintainer:** Omkar Parte (RAM-UNLOK) — *novice developer*
+
+   🔗 **GitHub:** [@RAM-UNLOK](https://github.com/RAM-UNLOK)
+
+**Special Thanks For Base DT & References:**
+
+**🥇❤️ [Klozz](https://github.com/xiaomi-rodin-mtk6899) For Base Trees**
+
+*   🤝 [Duchamp Development](https://github.com/mt6897-devs) for reference
+*   🤝 [Nothing-2A](https://github.com/Nothing-2A) for reference
+*   🤝 [Vermeer Development ](https://github.com/Vermeer-Development) for miuicamera reference
+*   🤝 [Lufrz](https://github.com/lufrz) for miuicamera leica support
+*   🤝 [Roger Ortiz](https://github.com/R0rt1z2/fenrir.git) for Fenrir Patch Reference
+*   🤝 [Pong - Development](https://github.com/Pong-Development) for DolbyUI
+
+**Major Thanks To All Our Group Testers ❤️**
+
+---
+
+## 📁 Repositories
+
+| Component | Repository Link |
+| :--- | :--- |
+| 🌳 **Device Tree** | [android_device_xiaomi_rodin](https://github.com/Digimend-X-Rodin/android_device_xiaomi_rodin) |
+| 🛡️ **Sepolicy VNDR** |[android_device_mediatek_sepolicy_vndr](https://github.com/Digimend-X-Rodin/android_device_mediatek_sepolicy_vndr) |
+| ⚙️ **MTK Hardware** | [android_hardware_mediatek](https://github.com/Digimend-X-Rodin/android_hardware_mediatek) |
+| ⚙️ **Xiaomi Hardware**|[android_hardware_xiaomi](https://github.com/Digimend-X-Rodin/android_hardware_xiaomi) |
+| 🐧 **Kernel Source** | [android_device_xiaomi_rodin-kernel](https://github.com/Digimend-X-Rodin/android_device_xiaomi_rodin-kernel) |
+
+---
+
+## 🛠️ Sync and Clone
+
+> [!TIP]
+> **One-Click Copy:** click the **copy icon** in the right corner. Run each command separately from your source root.
+
+### 🔄 Source Sync
+
+*(Common command for source sync. Uses `--depth=1` to save storage space).*
+```
+--depth=1
+```
+```
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+```
+
+### 📥 DT Clone Commands ( Some of them are private for development purpose )
+
+*Click to copy and run individually:*
+
+```
+git clone https://github.com/Digimend-X-Rodin/device_xiaomi_rodin.git device/xiaomi/rodin
+```
+```
+git clone https://github.com/Digimend-X-Rodin/android_device_mediatek_sepolicy_vndr.git device/mediatek/sepolicy_vndr
+```
+```
+git clone https://github.com/Digimend-X-Rodin/android_hardware_mediatek.git hardware/mediatek
+```
+```
+git clone https://github.com/Digimend-X-Rodin/android_hardware_xiaomi.git hardware/xiaomi
+```
+```
+git clone https://github.com/Digimend-X-Rodin/android_device_xiaomi_rodin-kernel.git device/xiaomi/rodin-kernel
+```
+```
+git clone https://gitlab.com/ram-unlok/vendor_xiaomi_rodin.git vendor/xiaomi/rodin
+```
+```
+git clone https://github.com/Digimend-X-Rodin/android_proprietary_device_xiaomi_rodin-miuicamera.git device/xiaomi/rodin-miuicamera
+```
+```
+git clone https://github.com/Digimend-X-Rodin/android_proprietary_vendor_xiaomi_rodin-miuicamera.git vendor/xiaomi/rodin-miuicamera
+```
+
+<details>
+<summary><b> ➕ Optional Commands (Click to expand) </b></summary>
+<br>
+
+*Clone this if your ROM source doesn't already include signing keys:*
+```
+git clone https://github.com/ProjectInfinity-X/vendor_infinity-priv_keys-template.git vendor/infinity-priv/keys
+```
+```
+git clone https://github.com/Digimend-X-Rodin/packages_apps_DolbyUI.git -b rodin packages/apps/DolbyUI
+```
+```
+git clone https://gitlab.com/ram-unlok/bcr.git vendor/bcr
+```
+```
+git clone https://gitlab.com/ram-unlok/vendor_PixelPlay.git vendor/PixelPlay
+```
+```
+git clone --depth=1 git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git -b linux-6.6.y kernel/xiaomi/rodin
+```
+```
+git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git packages/apps/ViPER4AndroidFX
+```
+```
+git clone https://rakmoparte@bitbucket.org/ram-unlok/vendor_gcam.git vendor/gcam
+```
+</details>
+
+<br>
+
+### 📦 Extract Vendor Files
+
+```
+./extract-files.py Path/To/Dumpyara/Extract
+```
+
+---
+
+## 📝 Notes
+
+> [!IMPORTANT]
+> *   **Directory:** Place these trees in the Android source under the strictly listed paths (`device/xiaomi/rodin`, `hardware/mediatek`, etc.).
+> *   **Context:** Execute the commands from the **source root** so relative destinations resolve correctly.
+> *   **Building:** Build steps vary by ROM; check the specific ROM's documentation for the correct `lunch` combo and build targets.
