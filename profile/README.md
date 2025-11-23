@@ -85,7 +85,7 @@ git clone https://github.com/Digimend-X-Rodin/android_device_xiaomi_rodin-kernel
 ```
 
 ```
-git clone --depth=1 https://gitlab.com/bibi0941/android_vendor_xiaomi_rodin.git vendor/xiaomi/rodin
+git clone --depth=1 https://gitlab.com/ram-unlok/vendor_xiaomi_rodin.git vendor/xiaomi/rodin
 ```
 
 ```
