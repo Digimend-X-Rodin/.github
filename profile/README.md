@@ -105,6 +105,10 @@ git clone --depth=1 https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.gi
 ```
 
 ```
+git clone --depth=1 https://gitlab.com/ram-unlok/bcr.git vendor/bcr
+```
+
+```
 ./extract-files.py Path/To/Dumpyara/Extract
 ```
 
