@@ -94,7 +94,7 @@ git clone --depth=1 https://github.com/MillenniumOSS/android_vendor_mediatek_ims
 
 Optional If Souce Doesnt Have It
 ```
-git clone --depth=1 https://github.com/Digimend-X-Rodin/vendor_lineage-priv_keys.git vendor/lineage-priv/keys
+git clone --depth=1 https://github.com/Digimend-X-Rodin/vendor_lineage-priv_keys.git vendor/lunaris-priv/keys
 ```
 
 ```
