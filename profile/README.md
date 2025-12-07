@@ -7,7 +7,7 @@ The POCO X7 Pro / Redmi Turbo 4 (codenamed "rodin") is an upper mid-range smartp
 ### Its purpose is intended for personal individual use for now
  
 ## Device picture
-![POCO X7 Pro](https://camo.githubusercontent.com/c77f6ded36062b87211ddc4a3426150155c8d638cb6fb45a660c3fd947fa2b2a/68747470733a2f2f6930322e6170706d6966696c652e636f6d2f6d692d636f6d2d70726f647563742f666c792d62697264732f706f636f2d78372d70726f2f70632f31613039376431373065633639343037393835353265656539363166633634312e706e673f663d77656270)
+![POCO X7 Pro](https://github.com/Digimend-X-Rodin/.github/blob/main/profile/1a097d170ec6940798552eee961fc641.webp)
 
 ## Device specifications
 
@@ -55,29 +55,29 @@ Run each command separately (each block is one-click copy):
 ### Common Command For Source Sync
 
 ```
-repo init -u https://github.com/Digimend-X-Rodin/android_manifest.git -b 16 --git-lfs --depth=1
+repo init -u https://github.com/Lunaris-AOSP/android -b 16 --git-lfs --depth=1
 ```
 
 ```
-repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 ### Commands For DT Clone
 
 ```
-git clone https://github.com/Digimend-X-Rodin/android_device_xiaomi_rodin.git -b TheCloverProject device/xiaomi/rodin
+git clone https://github.com/Digimend-X-Rodin/android_device_xiaomi_rodin.git device/xiaomi/rodin
 ```
 
 ```
-git clone https://github.com/Digimend-X-Rodin/android_device_mediatek_sepolicy_vndr.git -b TheCloverProject device/mediatek/sepolicy_vndr
+git clone https://github.com/Digimend-X-Rodin/android_device_mediatek_sepolicy_vndr.git -b lineage-23.2 device/mediatek/sepolicy_vndr
 ```
 
 ```
-git clone https://github.com/Digimend-X-Rodin/android_hardware_mediatek.git -b TheCloverProject hardware/mediatek
+git clone https://github.com/Digimend-X-Rodin/android_hardware_mediatek.git -b lineage-23.2 hardware/mediatek
 ```
 
 ```
-git clone https://github.com/Digimend-X-Rodin/android_hardware_xiaomi.git -b TheCloverProject hardware/xiaomi
+git clone https://github.com/Digimend-X-Rodin/android_hardware_xiaomi.git -b lineage-23.0 hardware/xiaomi
 ```
 
 ```
@@ -89,16 +89,24 @@ git clone --depth=1 https://gitlab.com/ram-unlok/vendor_xiaomi_rodin.git -b TheC
 ```
 
 ```
-git clone --depth=1 https://github.com/MillenniumOSS/android_vendor_mediatek_ims.git vendor/mediatek/ims/
+git clone https://github.com/mt6899-rodin/android_vendor_mediatek_ims.git vendor/mediatek/ims
 ```
 
 Optional If Souce Doesnt Have It
 ```
-git clone --depth=1 https://github.com/Digimend-X-Rodin/vendor_lineage-priv_keys.git vendor/lineage-priv/keys
+git clone https://github.com/ProjectInfinity-X/vendor_infinity-priv_keys-template.git vendor/infinity-priv/keys
 ```
 
 ```
 git clone --depth=1 git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git -b linux-6.6.y kernel/xiaomi/rodin
+```
+
+```
+git clone https://github.com/swiitch-OFF-Lab/packages_apps_DolbyUI.git -b 16.0 packages/apps/DolbyUI
+```
+
+```
+git clone https://github.com/swiitch-OFF-Lab/hardware_dolby.git -b moto-1.4 hardware/dolby
 ```
 
 ```
@@ -114,7 +122,7 @@ git clone --depth=1 https://gitlab.com/ram-unlok/vendor_PixelPlay.git vendor/Pix
 ```
 
 ```
-git clone --depth=1 https://rakmoparte@bitbucket.org/ram-unlok/lmc-camera.git vendor/xiaomi/LMC-Camera
+git clone https://rakmoparte@bitbucket.org/ram-unlok/vendor_gcam.git vendor/gcam
 ```
 
 ```
