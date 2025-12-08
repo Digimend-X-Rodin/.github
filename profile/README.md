@@ -55,17 +55,17 @@ Run each command separately (each block is one-click copy):
 ### Common Command For Source Sync
 
 ```
-repo init -u https://github.com/Digimend-X-Rodin/android_manifest.git -b 16 --git-lfs --depth=1
+repo init --depth=1 --no-repo-verify --git-lfs -u https://github.com/The-Clover-Project/manifest.git -b 16-qpr1 -g default,-mips,-darwin,-notdefault
 ```
 
 ```
-repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
 ### Commands For DT Clone
 
 ```
-git clone https://github.com/Digimend-X-Rodin/android_device_xiaomi_rodin.git -b TheCloverProject device/xiaomi/rodin
+git clone https://github.com/Digimend-X-Rodin/android_device_xiaomi_rodin.git -b Lunaris-AOSP device/xiaomi/rodin
 ```
 
 ```
