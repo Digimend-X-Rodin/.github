@@ -1,4 +1,3 @@
-
 <h1 align="center">📱 Android Development for POCO X7 Pro (rodin)</h1>
 
 <p align="center">
@@ -9,8 +8,23 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Android-16-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android 16" />
   <img src="https://img.shields.io/badge/SoC-Dimensity_8400_Ultra-blue?style=for-the-badge" alt="Dimensity 8400 Ultra" />
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status Active" />
+  <img src="https://img.shields.io/badge/Status-Under%20Development-orange?style=for-the-badge" alt="Status Under Development" />
+  <img src="https://img.shields.io/badge/Access-Rodin%20Devs%20Only-red?style=for-the-badge" alt="Rodin Devs Only" />
 </p>
+
+---
+
+> [!WARNING]
+> ## 🚧 Active Development — Read Before Proceeding
+>
+> **This project is currently under active development and is NOT production-ready.**
+>
+> - 🔁 **Force-push & Rebase Policy:** History rewrites (rebases and force-pushes) happen **frequently and without prior notice**. Do **not** base long-lived work on top of these trees — your local branches may become incompatible at any time.
+> - 🔒 **Restricted Access:** This organization is intended for **personal use** and is open **only to a select group of rodin developers**. If you are not part of this group, you are still welcome to **contribute via Pull Requests** — however, do not expect active support, reviews, or timely merges.
+> - ⚠️ **No Stability Guarantees:** Builds may be broken, incomplete, or non-functional at any given point in time. There is no release schedule or support commitment.
+> - 🚫 **Do NOT Flash Builds from Unknown Sources:** Do **not** flash builds made by unknown developers using these trees. **Official daily driver builds and unofficial releases by the maintainer are posted exclusively on the [official Telegram channel](https://t.me/digimendxrodin)** — only trust builds from there.
+
+---
 
 > [!NOTE]
 > This organization hosts device trees, kernel sources, and hardware layers for Android development on `rodin`, focusing on clean bring-up, stability, and performance.
@@ -137,7 +151,7 @@ git clone --depth=1 git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.g
 git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git packages/apps/ViPER4AndroidFX
 ```
 ```
-git clone https://rakmoparte@bitbucket.org/ram-unlok/vendor_gcam.git vendor/gcam
+git clone https://rakmoparte@bitbucket.org/ram-unlok/vendor_gcam.git -b lmc vendor/gcam
 ```
 </details>
 
@@ -150,9 +164,10 @@ git clone https://rakmoparte@bitbucket.org/ram-unlok/vendor_gcam.git vendor/gcam
 ```
 
 ---
+
 ## 📝 Notes
 
 > [!IMPORTANT]
 > *   **Directory:** Place these trees in the Android source under the strictly listed paths (`device/xiaomi/rodin`, `hardware/mediatek`, etc.).
 > *   **Context:** Execute the commands from the **source root** so relative destinations resolve correctly.
-> *   **Building:** Build steps vary by ROM; check the specific ROM’s documentation for the correct `lunch` combo and build targets.
+> *   **Building:** Build steps vary by ROM; check the specific ROM's documentation for the correct `lunch` combo and build targets.
