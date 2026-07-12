@@ -65,9 +65,12 @@
    🔗 **GitHub:** [@RAM-UNLOK](https://github.com/RAM-UNLOK)
 
 **Special Thanks For Base DT & References:**
-*   🥇 [@rthedream](https://github.com/xiaomi-mt6899-dev) for base trees
+
+**🥇❤️ [Klozz](https://github.com/xiaomi-rodin-mtk6899) For Base Trees**
+
+*   🤝 [@rthedream](https://github.com/xiaomi-mt6899-dev) for reference
 *   🤝 [Duchamp Development](https://github.com/mt6897-devs) for reference
-*   🤝[Nothing-2A](https://github.com/Nothing-2A) for reference
+*   🤝 [Nothing-2A](https://github.com/Nothing-2A) for reference
 
 **Major Thanks To All Our Group Testers ❤️**
 
