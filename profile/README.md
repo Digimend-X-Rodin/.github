@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Android-16-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android 16" />
+  <img src="https://img.shields.io/badge/Android-17-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android 17" />
   <img src="https://img.shields.io/badge/SoC-Dimensity_8400_Ultra-blue?style=for-the-badge" alt="Dimensity 8400 Ultra" />
   <img src="https://img.shields.io/badge/Status-Under%20Development-orange?style=for-the-badge" alt="Status Under Development" />
   <img src="https://img.shields.io/badge/Access-Rodin%20Devs%20Only-red?style=for-the-badge" alt="Rodin Devs Only" />
@@ -83,11 +83,13 @@
 
 | Component | Repository Link |
 | :--- | :--- |
-| 🌳 **Device Tree** | [android_device_xiaomi_rodin](https://github.com/Digimend-X-Rodin/android_device_xiaomi_rodin) |
+| 🌳 **Device Tree** | [android_device_xiaomi_rodin](https://github.com/Digimend-X-Rodin/device_xiaomi_rodin) |
 | 🛡️ **Sepolicy VNDR** |[android_device_mediatek_sepolicy_vndr](https://github.com/Digimend-X-Rodin/android_device_mediatek_sepolicy_vndr) |
 | ⚙️ **MTK Hardware** | [android_hardware_mediatek](https://github.com/Digimend-X-Rodin/android_hardware_mediatek) |
 | ⚙️ **Xiaomi Hardware**|[android_hardware_xiaomi](https://github.com/Digimend-X-Rodin/android_hardware_xiaomi) |
-| 🐧 **Kernel Source** | [android_device_xiaomi_rodin-kernel](https://github.com/Digimend-X-Rodin/android_device_xiaomi_rodin-kernel) |
+| 🌳 **Vendor Tree** | [android_vendor_xiaomi_rodin](https://gitlab.com/ram-unlok/vendor_xiaomi_rodin.git) |
+| 📷 **Miuicamera DT** | [android_device_xiaomi_rodin-miuicamera](https://github.com/Digimend-X-Rodin/android_proprietary_device_xiaomi_rodin-miuicamera) |
+| 📷 **Miuicamera VT** | [android_vendor_xiaomi_rodin-miuicamera](https://github.com/Digimend-X-Rodin/android_proprietary_vendor_xiaomi_rodin-miuicamera) |
 
 ---
 
@@ -145,12 +147,6 @@ git clone https://github.com/ProjectInfinity-X/vendor_infinity-priv_keys-templat
 ```
 ```
 git clone https://github.com/Digimend-X-Rodin/packages_apps_DolbyUI.git -b rodin packages/apps/DolbyUI
-```
-```
-git clone https://gitlab.com/ram-unlok/bcr.git vendor/bcr
-```
-```
-git clone https://gitlab.com/ram-unlok/vendor_PixelPlay.git vendor/PixelPlay
 ```
 ```
 git clone --depth=1 git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git -b linux-6.6.y kernel/xiaomi/rodin
